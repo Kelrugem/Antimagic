@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root version="3.0" release="1">
+  <properties>
+    <name>Feature: Antimagic</name>
+    <version>3.3.15.1</version>
+    <author>Kelrugem</author>
+    <description>Antimagic effect.</description>
+    <ruleset>
+      <name>3.5E</name>
+    </ruleset>
+	<ruleset>
+      <name>PFRPG</name>
+    </ruleset>
+  </properties>
+  <announcement text="Antimagic v3.3.15.1 for 3.5E and PFRPG rulesets. \rCopyright 2020 Smiteworks.\rBy Kelrugem.\rApply to all magical effects the string 'MAGIC' and for the penalties 'ANTI'. Then use the antimagic toggle in the CT." font="chatfont" />
+  <base>
+	<!-- Strings -->
+    <includefile source="strings/strings_35e.xml" />
+	<!-- Combat tracker -->
+    <includefile source="ct/ct_host.xml" />
+    <includefile source="ct/template_ct.xml" />
+  </base>
+</root>
